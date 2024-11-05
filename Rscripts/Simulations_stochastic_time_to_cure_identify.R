@@ -42,8 +42,7 @@ myfunction = function(N, exp_rate, seed, prob_known_cured, incidence_par, latenc
   # -------------------------------------------------------------------
   
   # a. Generate the logistic regression
-  error_incidence = rnorm(N) # random error term
-  logit_incidence = 2 + cbind(z1, z2, q1, q2) %*% incidence_par + error_incidence
+  logit_incidence = 2 + cbind(z1, z2, q1, q2) %*% incidence_par
   
   # b. Calculate the probabilities
   prob_incidence = plogis(logit_incidence)
