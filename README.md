@@ -13,5 +13,5 @@ Furthermore, we compare different strategies that account for cure information s
 
 ## Project Structure
 
-- ***`R`***: R source code/scripts for the data generation (simulations) and building the different models.
+- ***`Rscripts`***: R source code/scripts for the data generation (simulations) and building the different models.
 
