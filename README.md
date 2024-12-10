@@ -14,6 +14,5 @@ Furthermore, we compare different strategies that account for cure information s
 ## Project Structure
 
 - ***`Rscripts`***: R source code/scripts for the data generation (simulations) and building the different models.
-- ***`Results`***: Results obtained for a sample of datasets simulated through the Rscripts.
 - ***`Manuscript`***: The full manuscript of the study.
 
