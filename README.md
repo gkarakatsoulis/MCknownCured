@@ -8,8 +8,8 @@ For example, when studying the distant metastasis during the lifetime or the mis
 The same also holds when studying the x-year overall survival or the death during hospital stay. Common MC models ignore this information and consider them all censored, thus yielding in risk of assigning low immune probabilities to cured individuals.
 In this study, we consider a MC model that incorporates known information on cured individuals, with the time to cure identification being deterministic, stochastic or even irrelevant.
 Furthermore, we compare different strategies that account for cure information such as:
-* (1) assigning infinite times to event for known cured cases and adjusting the traditional model and
-* (2) considering only the probability of cure identification but ignoring the time until that happens.
+* assigning infinite times to event for known cured cases and adjusting the traditional model
+* considering only the probability of cure identification but ignoring the time until that happens.
 
 ## Project Structure
 
